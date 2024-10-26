@@ -1,24 +1,5 @@
-# icon-insight
+# app-insight
 
-## Project setup
-```
-pnpm install
-```
+app-insight 是一个需要展示App排行榜的一个前端网站，那我会通过前端和后端共同来交互来作为这样那个App，然后目前的话app-insight这个项目最主要是用来做前端部分
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
-
-### Compiles and minifies for production
-```
-pnpm run build
-```
-
-### Lints and fixes files
-```
-pnpm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+前端部分，目前的话，我们希望是使用VUE的技术框架来做。
