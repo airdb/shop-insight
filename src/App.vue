@@ -26,7 +26,7 @@
             <button class="px-4 py-2 rounded-full bg-white text-black border border-gray-300 hover:bg-gray-100 transition-colors">Release Date</button>
           </div>
           <div class="flex space-x-4">
-            <button @click="openAboutModal" class="px-3 py-2 text-gray-600">About</button>
+            <button @click="openAboutModal" class="px-4 py-2 rounded-full bg-white text-black border border-gray-300 hover:bg-gray-100 transition-colors">About</button>
             <button @click="openSubmitModal" class="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Submit</button>
           </div>
         </div>
