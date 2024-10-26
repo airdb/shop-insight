@@ -26,8 +26,6 @@ export default {
         { id: 9, name: 'Pinterest', url: 'https://cdn-icons-png.flaticon.com/128/145/145808.png' },
         { id: 10, name: 'Spotify', url: 'https://cdn-icons-png.flaticon.com/128/174/174872.png' },
         { id: 11, name: 'Netflix', url: 'https://cdn-icons-png.flaticon.com/128/2504/2504929.png' },
-        { id: 12, name: 'Amazon', url: 'https://cdn-icons-png.flaticon.com/128/5968/5968217.png' },
-        { id: 13, name: 'Uber', url: 'https://cdn-icons-png.flaticon.com/128/5969/5969103.png' },
         { id: 14, name: 'Airbnb', url: 'https://cdn-icons-png.flaticon.com/128/2111/2111320.png' },
         { id: 15, name: 'Dropbox', url: 'https://cdn-icons-png.flaticon.com/128/174/174844.png' },
         { id: 16, name: 'Slack', url: 'https://cdn-icons-png.flaticon.com/128/2111/2111615.png' },
