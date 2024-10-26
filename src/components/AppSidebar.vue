@@ -24,18 +24,25 @@
 export default {
   name: 'AppSidebar',
   data() {
+    const categories = [
+      { id: 2, name: 'Social Media', count: 150, icon: '🌐' },
+      { id: 3, name: 'Productivity', count: 120, icon: '📈' },
+      { id: 4, name: 'Entertainment', count: 200, icon: '🎥' },
+      { id: 5, name: 'Education', count: 80, icon: '📚' },
+      { id: 6, name: 'Health & Fitness', count: 100, icon: '🏋️‍♀️' },
+      { id: 7, name: 'Finance', count: 70, icon: '💸' },
+      { id: 8, name: 'Travel', count: 90, icon: '🗺️' },
+      { id: 9, name: 'Food & Drink', count: 110, icon: '🍴' },
+      { id: 10, name: 'Shopping', count: 130, icon: '🛍️' },
+      { id: 11, name: 'News', count: 61, icon: '📰' },
+    ];
+
+    const totalCount = categories.reduce((sum, category) => sum + category.count, 0);
+
     return {
       categories: [
-        { id: 1, name: 'Social Media', count: 150, icon: '🌐' },
-        { id: 2, name: 'Productivity', count: 120, icon: '📈' },
-        { id: 3, name: 'Entertainment', count: 200, icon: '🎥' },
-        { id: 4, name: 'Education', count: 80, icon: '📚' },
-        { id: 5, name: 'Health & Fitness', count: 100, icon: '🏋️‍♀️' },
-        { id: 6, name: 'Finance', count: 70, icon: '💸' },
-        { id: 7, name: 'Travel', count: 90, icon: '🗺️' },
-        { id: 8, name: 'Food & Drink', count: 110, icon: '🍴' },
-        { id: 9, name: 'Shopping', count: 130, icon: '🛍️' },
-        { id: 10, name: 'News', count: 60, icon: '📰' },
+        { id: 1, name: 'All', count: totalCount, icon: '🔍' },
+        ...categories
       ]
     }
   }
