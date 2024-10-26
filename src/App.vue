@@ -21,13 +21,13 @@
                 </svg>
               </button>
             </div>
-            <button class="px-3 py-2 rounded-md bg-black text-white">Category</button>
-            <button class="px-3 py-2 rounded-md bg-white text-black border border-gray-300">Color</button>
-            <button class="px-3 py-2 rounded-md bg-white text-black border border-gray-300">Release Date</button>
+            <button class="px-4 py-2 rounded-full bg-black text-white hover:bg-gray-800 transition-colors">Category</button>
+            <button class="px-4 py-2 rounded-full bg-white text-black border border-gray-300 hover:bg-gray-100 transition-colors">Color</button>
+            <button class="px-4 py-2 rounded-full bg-white text-black border border-gray-300 hover:bg-gray-100 transition-colors">Release Date</button>
           </div>
           <div class="flex space-x-4">
             <button @click="openAboutModal" class="px-3 py-2 text-gray-600">About</button>
-            <button @click="openSubmitModal" class="px-3 py-2 bg-black text-white rounded-md">Submit</button>
+            <button @click="openSubmitModal" class="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Submit</button>
           </div>
         </div>
       </nav>
