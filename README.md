@@ -4,4 +4,4 @@ shop explore 是一个需要展示 shop 排行榜的一个前端网站，那我�
 
 前端部分，目前的话，我们希望是使用VUE3的技术框架来做。
 
-项目技术栈采用 VUE3 + VITE + TYPESCRIPT
+项目技术栈采用 VUE3 + VITE + TYPESCRIPT + TAILWIND CSS
